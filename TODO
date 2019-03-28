@@ -1,0 +1,30 @@
+IDEAS / TO DO:
+
+		
+	CURRENT PLAN
+
+		- Calculate distance to the wall in the camera view
+		- Simple if/else block to determine which array of images to load into the box
+		- Constantly refresh which texture to load in update loop
+
+	- Fix controls (Especially zoom controls)
+
+		- Calculate the yaw and pitch angle (alpha/beta)
+		- Use same zoom method but zoom with cos() and sin() of alpha/beta
+		- Align W/A/S/D/up/down with current camera view ( THREE.FirstPersonControls()? / FlyControls()? )
+
+	- Split cube faces into grids, and load tiled images in parts to the face
+
+	- Investigate LOD for image textures rather than just mesh structures
+
+	- Stretch the box based on user input to a greater size to zoom?  
+
+
+NOTE:
+
+		To load local images, need to run a terminal script with python
+
+				> python -m SimpleHTTPServer 8000
+
+				Then in the browser use localhost:8000
+

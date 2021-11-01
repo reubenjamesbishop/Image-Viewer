@@ -1,8 +1,19 @@
 # Image-Viewer
-Program to stitch and move around inside 360 degree images
+Squper quick program to stitch 360 cam pics together, and move around inside images like street-view. 
 
-Terminal command using python:
-  
-    python -m SimpleHTTPServer 8000
+# Controls
 
-In a web browser, navigate to localhost:8000.
+Click and drag to orient the camera, and W/A/S/D to move around inside the image. 
+
+# Run 
+
+[Run online here](https://image-viewer-one.vercel.app/)
+
+or locally with:
+
+python -m http.server
+
+# TODO:
+
+- Fix broken multi-res option
+- Improve controls

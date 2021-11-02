@@ -1,5 +1,5 @@
 # Image-Viewer
-Squper quick program to stitch 360 cam pics together, and move around inside images like street-view. 
+Super quick program to stitch 360 cam pics together, and move around inside images like street-view. 
 
 # Controls
 
